@@ -38,9 +38,15 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: $typo_ostrich;
 }
-h2,h3,h4,h5,h6 {
+h2, h4, h5, h6 {
   font-size: $typo_eagle;  
 }
+h3 {
+  font-size: $typo_sparrow;
+  color: $base-font-color;
+  font-weight: bolder;
+}
+
 
 // Mobile sizes
 @media only screen and (max-width: $large_screen) {
@@ -53,7 +59,11 @@ h2,h3,h4,h5,h6 {
   h1 {
   font-size: $m_typo_ostrich;
   }
-  h2,h3,h4,h5,h6 {
+  h2, h4, h5, h6 {
     font-size: $m_typo_eagle;  
+  }
+  h3 {
+    font-size: $typo_sparrow;
+    color: $base-font-color;
   }
 }
