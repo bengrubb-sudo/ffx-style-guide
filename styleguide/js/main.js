@@ -17,6 +17,7 @@ function smoothScroll() {
 // Target External Links
 function TargetExt() {
   $(".sg_doc a[href^='http']").attr("target","_blank").addClass("ext");
+}
 
 // Sidebar Button
 function sidebarButton() {
