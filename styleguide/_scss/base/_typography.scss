@@ -1,11 +1,10 @@
-// Typography Settings
-.typo_ostrich {font-size: $typo_ostrich;}
-.typo_albatros {font-size: $typo_albatros;}
-.typo_eagle {font-size: $typo_eagle;}
-.typo_hawk {font-size: $typo_hawk;}
-.typo_crow {font-size: $typo_crow;}
-.typo_sparrow {font-size: $typo_sparrow;}
-.typo_hummingbird {font-size: $typo_hummingbird;}
+.typo_h1 {font-size: $typo_h1;}
+.typo_h2 {font-size: $typo_h2;}
+.typo_h3 {font-size: $typo_h3;}
+.typo_h4 {font-size: $typo_h4;}
+.typo_h5 {font-size: $typo_h5;}
+.typo_h6 {font-size: $typo_h6;}
+.typo_p {font-size: $typo_p;}
 
 ul,ol,dd,
 p,figure,
@@ -36,13 +35,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: $typo_ostrich;
+  font-size: $typo_h1;
 }
 h2, h4, h5, h6 {
-  font-size: $typo_eagle;  
+  font-size: $typo_h3;  
 }
 h3 {
-  font-size: $typo_sparrow;
+  font-size: $typo_p;
   color: $base-font-color;
   font-weight: bolder;
   margin-bottom: 0.1rem;
@@ -52,19 +51,19 @@ h3 {
 // Mobile sizes
 @media only screen and (max-width: $large_screen) {
   
-  .typo_ostrich {font-size: $m_typo_ostrich;}
-  .typo_albatros {font-size: $m_typo_albatros;}
-  .typo_eagle {font-size: $m_typo_eagle;}
-  .typo_hawk {font-size: $m_typo_hawk;}
+  .typo_h1 {font-size: $m_typo_h1;}
+  .typo_h2 {font-size: $m_typo_h2;}
+  .typo_h3 {font-size: $m_typo_h3;}
+  .typo_h4 {font-size: $m_typo_h4;}
   
   h1 {
-  font-size: $m_typo_ostrich;
+  font-size: $m_typo_h1;
   }
   h2, h4, h5, h6 {
-    font-size: $m_typo_eagle;  
+    font-size: $m_typo_h3;  
   }
   h3 {
-    font-size: $typo_sparrow;
+    font-size: $typo_p;
     color: $base-font-color;
     margin-bottom: 0.1rem;
   }

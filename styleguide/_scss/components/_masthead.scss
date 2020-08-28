@@ -35,16 +35,16 @@
     .count {
       display: flex;
       flex: 0 0 auto;
-      font-size: $typo_hummingbird;
+      font-size: $typo_h6;
       margin-left: $margin;
-      height: $typo_crow;
+      height: $typo_h5;
       width: 6rem;
       border-radius: $base-border-radius;
       overflow: hidden;
       background: $smoke;
 
       span {
-        height: $typo_crow;
+        height: $typo_h5;
       }
       .planned {
         background: $red;
