@@ -10,7 +10,6 @@
        url(../fonts/MaterialIcons/MaterialIcons-Regular.ttf) format('truetype');
 }
 
-// Icons
 i.icon {
   height: auto;
   width: auto;
@@ -19,7 +18,7 @@ i.icon {
   vertical-align: middle;
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px;
   display: inline-block;
   line-height: inherit;
   text-transform: none;
