@@ -1,4 +1,3 @@
-// The Masthead
 .sg_masthead {
   padding: $margin_massive 0;
   margin-bottom: $margin_massive;
@@ -18,80 +17,22 @@
       flex-direction: column;
     }
   }
+
   .head {
     display: flex;
     flex: 0 0 100%;
     flex-direction: column;
   }
-  // Title
+
   .title {
     display: flex;
     align-items: center;
     margin-bottom: $margin;
     font-weight: bold;
     text-transform: capitalize;
-    
-    // Maturity Count
-    .count {
-      display: flex;
-      flex: 0 0 auto;
-      font-size: $typo_h6;
-      margin-left: $margin;
-      height: $typo_h5;
-      width: 6rem;
-      border-radius: $base-border-radius;
-      overflow: hidden;
-      background: $smoke;
-
-      span {
-        height: $typo_h5;
-      }
-      .planned {
-        background: $red;
-      }
-      .draft {
-        background: $amber;
-      }
-      .ready {
-        background: $green;
-      }
-      .retired {
-        background: $grey;
-      }
-    }
   }
-  // Subtitle
+
   .sub_title {
     margin-bottom: $margin;
-  }
-  
-  // Page Navigation
-  #nav {
-    flex: 1 0 auto;
-    width: calc(#{$right_rail} - #{$margin_huge});
-    padding-left: $margin_huge;
-    
-    ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
-    li a {
-      padding: $margin_small /2 0;
-      
-      &:before {
-        content: 'remove';
-        font-family: $icon;
-        display: inline-block;
-        line-height: 1;
-        vertical-align: text-top;
-        margin-right: $margin_small;
-      }
-    }
-    
-    @media only screen and (max-width: $extended_screen) {
-      width: auto;
-      padding-left: 0;
-    }
   }
 }

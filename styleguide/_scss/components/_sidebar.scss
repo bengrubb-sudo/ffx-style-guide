@@ -14,10 +14,12 @@
     padding: 0;
     list-style: none;
   }
+
   li {
     border-top: 1px solid transparentize($white, 0.8);
     line-height: $heading-line-height;
   }
+
   a:not(.logo) {
     text-transform: capitalize;
     display: block;
@@ -71,11 +73,13 @@
         height: 3rem;
       }
     }
+
     .title {
       font-size: $typo_h5;
       margin-bottom: 0;
     }
   }
+
   .group {
     border-top: 1px solid transparentize($white, 0.8);
     padding-bottom: $margin;
@@ -87,6 +91,7 @@
       padding-bottom: $margin_small;
       margin-bottom: 0;
     }
+    
     li {
       border-top: none;
       
