@@ -28,10 +28,10 @@ defaults:
       type: style-general
   -
     scope:
-      path: "_docs/style-sport"
+      path: "_docs/style-internet-and-it"
     values:
       layout: doc
-      type: style-sport
+      type: style-internet-and-it
 sass: 
   sass_dir: styleguide/_scss
   style: :compressed

@@ -9,8 +9,8 @@
   </ul>
   {% assign index-general = site.docs | where: 'type', 'index-general' | sort: 'url' %}
   {% assign index-business = site.docs | where: 'type', 'index-business' | sort: 'url' %}
-  {% assign index-sport = site.docs | where: 'type', 'index-sport' | sort: 'url' %}
-  {% assign index-all = index-general | concat: index-business | concat: index-sport %}
+  {% assign index-internet-and-it = site.docs | where: 'type', 'index-internet-and-it' | sort: 'url' %}
+  {% assign index-all = index-general | concat: index-business | concat: index-internet-and-it %}
   <div class="group">
     <div class="group_title">Styles</div>
     <ul>{% for index in index-all %}

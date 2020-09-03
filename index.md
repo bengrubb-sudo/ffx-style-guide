@@ -26,8 +26,8 @@ Thanks go to all those who have given of their time and expertise in producing t
 
 {% assign style-general = site.docs | where: 'type', 'style-general' | sort: 'url' %}
 {% assign style-business = site.docs | where: 'type', 'style-business' | sort: 'url' %}
-{% assign style-sport = site.docs | where: 'type', 'style-sport' | sort: 'url' %}
-{% assign style-all = style-general | concat: style-business | concat: style-sport | sort: 'title' %}
+{% assign style-internet-and-it = site.docs | where: 'type', 'style-internet-and-it' | sort: 'url' %}
+{% assign style-all = style-general | concat: style-business | concat: style-internet-and-it | sort: 'title' %}
 {% for doc in style-all %}
 <div class="{{doc.type}}" markdown="1">
 ## {{ doc.title }}
