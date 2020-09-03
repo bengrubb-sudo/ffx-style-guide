@@ -6,7 +6,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.sg_description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}{{ site.sg_favicon }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}{{ site.sg_styles }}" media="screen">
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ site.sg_styles }}?{{ site.time | date: '%s' }}" media="screen">
     <script src="{{ site.baseurl }}/styleguide/js/libs/jquery-2.1.4.min.js"></script>
   </head>
   <body id="sg">
