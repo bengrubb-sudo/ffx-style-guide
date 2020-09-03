@@ -69,13 +69,14 @@ dd {
   display: inline;
   margin: 0;
 }
-dd:after{
+dd:after {
   display: block;
   content: '';
 }
-dt{
-  margin-top: $margin;
+dt {
   display: inline-block;
+  margin-top: $margin;
+  cursor: pointer;
 }
 
 // dl {
