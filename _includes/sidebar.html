@@ -14,14 +14,14 @@
   <div class="group">
     <div class="group_title">Styles</div>
     <ul>{% for index in index-all %}
-      <li><a href="{{ site.baseurl }}{{ index.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ index.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ index.url }}"{% if index.url == page.url %} class="active"{% endif %}>{{ index.title }}</a></li>
     {% endfor %}</ul>
   </div>
   {% assign guides = site.docs | where: 'type', 'guides' | sort: 'url' %}
   <div class="group">
     <div class="group_title">Guides</div>
     <ul>{% for guide in guides %}
-      <li><a href="{{ site.baseurl }}{{ guide.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ guide.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ guide.url }}"{% if guide.url == page.url %} class="active"{% endif %}>{{ guide.title }}</a></li>
     {% endfor %}</ul>
   </div>
 </div>

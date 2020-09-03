@@ -20,7 +20,7 @@ title: A
 {:#abbreviations-organisations} abbreviations (organisations)
 : In most cases an organisation's name should be used in full at first reference and shortened later. Also in most cases, initials should be used only where instantly recognisable. Otherwise use: *the association*, *the board*, *the union*, *the council*, *the company*, *the commission*, *the league*, etc (all lower case). A few well-recognised abbreviations (e.g. *ABC*, *ACTU*, *AFL*, *MCG*, *NRL*, *SCG*) may be used at first reference. When such terms as *Australian*, *Victorian*, *NSW*, *national*, *federal*, *Melbourne* or *Sydney* are omitted from an organisation's name but the name is substantially intact, retain caps, e.g. *the* (*Australian*) *Broadcasting Tribunal*, *the* (*Australian*) *Taxation Office*, *the* (*National*) *Farmers Federation*. But lower case *the tribunal*, *the council*, *the* (*Victorian*, *NSW*) *police*, when the name is reduced this far. Where a number of groups appear in the one story, initials are permitted for clarity. Initials in brackets after the full version are rarely needed.
 
-{:#abbreviations-states-and-territories)} abbreviations (states and territories)
+{:#abbreviations-states-and-territories} abbreviations (states and territories)
 : *NSW* and *the* *ACT* are always abbreviated. In general spell out other names in copy. Where abbreviated in graphics or lists, use: *SA*, *WA*, *NT*, *Qld*, *Tas*, *Vic*. Avoid *Vic* and *Tas* in headlines.
 
 {:#abbreviations-money} abbreviations (money)
