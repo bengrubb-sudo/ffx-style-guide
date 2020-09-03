@@ -7,18 +7,21 @@
   <ul>
     <li><a href="{{ site.baseurl }}/index.html"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
   </ul>
-  {% assign general-style = site.docs | where: 'type', 'general-style' | sort: 'url' %}
+  {% assign index-general = site.docs | where: 'type', 'index-general' | sort: 'url' %}
+  {% assign index-business = site.docs | where: 'type', 'index-business' | sort: 'url' %}
+  {% assign index-sport = site.docs | where: 'type', 'index-sport' | sort: 'url' %}
+  {% assign index-all = index-general | concat: index-business | concat: index-sport %}
   <div class="group">
-    <div class="group_title">General Style</div>
-    <ul>{% for doc in general-style %}
-      <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
+    <div class="group_title">Styles</div>
+    <ul>{% for index in index-all %}
+      <li><a href="{{ site.baseurl }}{{ index.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ index.title }}</a></li>
     {% endfor %}</ul>
   </div>
   {% assign guides = site.docs | where: 'type', 'guides' | sort: 'url' %}
   <div class="group">
     <div class="group_title">Guides</div>
-    <ul>{% for doc in guides %}
-      <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
+    <ul>{% for guide in guides %}
+      <li><a href="{{ site.baseurl }}{{ guide.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ guide.title }}</a></li>
     {% endfor %}</ul>
   </div>
 </div>

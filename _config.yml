@@ -16,10 +16,22 @@ defaults:
       type: guides
   -
     scope:
-      path: "_docs/general-style"
+      path: "_docs/style-business"
     values:
       layout: doc
-      type: general-style
+      type: style-business
+  -
+    scope:
+      path: "_docs/style-general"
+    values:
+      layout: doc
+      type: style-general
+  -
+    scope:
+      path: "_docs/style-sport"
+    values:
+      layout: doc
+      type: style-sport
 sass: 
   sass_dir: styleguide/_scss
   style: :compressed

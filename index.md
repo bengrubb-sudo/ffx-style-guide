@@ -22,20 +22,25 @@ Thanks go to all those who have given of their time and expertise in producing t
 
 **January 2015**
 
-# General Style
+# Styles
 
-{% assign general-style = site.docs | where: 'type', 'general-style' | sort: 'url' %}
-{% for doc in general-style %}
+{% assign style-general = site.docs | where: 'type', 'style-general' | sort: 'url' %}
+{% assign style-business = site.docs | where: 'type', 'style-business' | sort: 'url' %}
+{% assign style-sport = site.docs | where: 'type', 'style-sport' | sort: 'url' %}
+{% assign style-all = style-general | concat: style-business | concat: style-sport | sort: 'title' %}
+{% for doc in style-all %}
+<div class="{{doc.type}}" markdown="1">
 ## {{ doc.title }}
 {{ doc.content }}
 <hr>
+</div>
 {% endfor %}
 
 # Guides
 
 {% assign guides = site.docs | where: 'type', 'guides' | sort: 'url' %}
-{% for doc in guides %}
-## {{ doc.title }}
-{{ doc.content }}
+{% for guide in guides %}
+## {{ guide.title }}
+{{ guide.content }}
 <hr>
 {% endfor %}

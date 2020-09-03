@@ -58,12 +58,37 @@ h2, h4, h5, h6 {
   font-size: $typo_h3;  
 }
 
-h3 {
+h3, dt {
   font-size: $typo_p;
   color: $base-font-color;
   font-weight: bolder;
   margin-bottom: 0.1rem;
 }
+
+dd {
+  display: inline;
+  margin: 0;
+}
+dd:after{
+  display: block;
+  content: '';
+}
+dt{
+  margin-top: $margin;
+  display: inline-block;
+}
+
+// dl {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+// dt {
+//   width: 30%;
+// }
+// dd {
+//   margin-left: auto;
+//   width: 70%;
+// }
 
 @media only screen and (max-width: $large_screen) {
   .typo_h1 {
