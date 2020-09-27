@@ -12,9 +12,11 @@ Our relationship with readers is built on trust and transparency. Readers expect
 
 The corrections and clarifications format have been developed with Product. See below for mobile (left) and desktop (right) versions. 
 
+![Image 1 correction](/styleguide/branding/png/corrections1.png)
+
 The corrections/clarifications field is in the Article Tools section of INK:
 
-![Image 1 correction](/styleguide/branding/png/corrections1.png)
+![Image 2 correction](/styleguide/branding/png/corrections2.png)
 
 Once a story is published reporters and editors are accountable for any changes to the copy. The “not wrong for long” approach to fixing online copy does not apply to us. 
 
