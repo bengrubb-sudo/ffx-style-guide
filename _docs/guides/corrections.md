@@ -16,7 +16,7 @@ The corrections and clarifications format have been developed with Product. See 
 
 The corrections/clarifications field is in the Article Tools section of INK:
 
-![Image 2 correction](/ffx-style-guide/styleguide/branding/png/corrections2.png)
+![Image 2  correction](/ffx-style-guide/styleguide/branding/png/corrections2.png)
 
 Once a story is published reporters and editors are accountable for any changes to the copy. The “not wrong for long” approach to fixing online copy does not apply to us. 
 
