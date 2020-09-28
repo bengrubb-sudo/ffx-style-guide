@@ -1,6 +1,6 @@
 ---
 title: Corrections & clarrifications
-info: When we make a mistake, we must fix it. Here's how.
+info: If we make a mistake, we must fix it. Here's how.
 ---
 
 Corrections and clarifications
