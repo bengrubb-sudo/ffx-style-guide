@@ -18,7 +18,6 @@ The corrections/clarifications field is in the Article Tools section of INK:
 
 Once a story is published reporters and editors are accountable for any changes to the copy. The “not wrong for long” approach to fixing online copy does not apply to us. 
 
-
 Rules:
 
 * We should not clarify or correct a simple spelling mistake or literal. However, any material correction or clarification to copy requires an acknowledgement to our readers whether we receive a complaint or not. 
