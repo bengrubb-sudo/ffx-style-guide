@@ -2,7 +2,6 @@
 title: Corrections and clarifications
 info: If we make a mistake, we must fix it. Here's how.
 ---
-**James Chessell, Tory Maguire**
 
 We have introduced “in-article” corrections and clarifications across the whole newsroom. This mirrors best practice of other leading mastheads around the world.
 
